@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon="@drawable/baseline_app_blocking_24"
+        android:id="@+id/mainFragment"
+        android:title="@string/main"/>
+    <item
+        android:icon="@drawable/baseline_currency_bitcoin_24"
+        android:id="@+id/secondFragment"
+        android:title="@string/second"/>
+    <item
+        android:icon="@drawable/baseline_currency_lira_24"
+        android:id="@+id/thirdFragment"
+        android:title="@string/third"/>
+
+</menu>
