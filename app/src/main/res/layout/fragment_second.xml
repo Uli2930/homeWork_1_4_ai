@@ -9,7 +9,7 @@
     tools:context=".fragments.SecondFragment">
 
 <TextView
-    android:id="@+id/tv_email"
+    android:id="@+id/tv_login"
     android:layout_marginBottom="24dp"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
