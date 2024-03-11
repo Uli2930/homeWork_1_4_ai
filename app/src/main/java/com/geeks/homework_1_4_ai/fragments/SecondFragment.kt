@@ -24,8 +24,8 @@ class SecondFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        binding?.tvLogin?.text = args.login
-        binding?.tvPassword?.text = args.password.toString()
+        binding?.tvLogin?.text = args.email.login
+        binding?.tvPassword?.text = args.email.password
     }
 }
 

@@ -25,13 +25,9 @@
             android:id="@+id/action_secondFragment_to_thirdFragment"
             app:destination="@id/thirdFragment" />
         <argument
-            android:name="login"
-            app:argType="string"
-            android:defaultValue=" " />
-        <argument
-            android:name="password"
-            app:argType="integer"
-            android:defaultValue="1"/>
+            android:name="email"
+            app:argType="com.geeks.homework_1_4_ai.Email"/>
+
     </fragment>
     <fragment
         android:id="@+id/thirdFragment"

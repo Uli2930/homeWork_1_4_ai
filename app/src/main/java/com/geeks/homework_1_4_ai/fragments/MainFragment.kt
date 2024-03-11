@@ -33,7 +33,7 @@ class MainFragment : Fragment() {
            val password = binding.etPassword.text.toString()
 
             val email = Email(login, password)
-            val action = MainFragmentDirections.actionMainFragmentToSecondFragment(email.toString())
+            val action = MainFragmentDirections.actionMainFragmentToSecondFragment(email)
             findNavController().navigate(action )
         }
     }
